@@ -38,7 +38,7 @@ def toes(array)
       x_coordinates -= 1
 
       if array[y_coordinates][x_coordinates] == "O" || array[y_coordinates][x_coordinates] == "X"
-        puts "Player spot already in use, try again dumbass"
+        puts "Player spot already in use, try again pretty please"
       else
         if x_coordinates == y_coordinates
           diagonalp1 += 1
@@ -82,7 +82,7 @@ def toes(array)
       x_coordinates -= 1
       y_coordinates -= 1
       if array[y_coordinates][x_coordinates] == "X" || array[y_coordinates][x_coordinates] == "O"
-        puts "Player spot already in use, try again dumbass"
+        puts "Player spot already in use, try again pretty please"
       else
         if x_coordinates == y_coordinates
           diagonalp2 += 1
